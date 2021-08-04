@@ -29,7 +29,7 @@ function mostrar() {
 		importeFinal,
 		flagD = 1;
 
-	for (let cont = 0; cont < 4; cont++) {
+	for (let cont = 0; cont < 10; cont++) {
 
 		origen = prompt("Ingrese origen (Asia/Europa/USA)").toLowerCase();
 		while (origen != "asia" && origen != "europa" && origen != "usa") {
